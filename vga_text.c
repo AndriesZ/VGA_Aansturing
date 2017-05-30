@@ -1,5 +1,11 @@
-/*
- *  Externe bron: http://www.digole.com/tools/PicturetoC_Hex_converter.php
+/*   Auteur: Koen Gort
+ *   Laatste wijziging: 30-05-2017 (23.21 uur)
+ *
+ *   Externe bronnen:
+ *    (1) http://www.digole.com/tools/PicturetoC_Hex_converter.php 			  (fonts converteren)
+ *    (3) https://d144mzi0q5mijx.cloudfront.net/img/B/E/Berkelium-BitmapA.png (font1)
+ *    (2) http://www.dafont.com/img/illustration/m/u/multicolore.png		  (font2)
+ *
  */
 
 #include "vga_text.h"
