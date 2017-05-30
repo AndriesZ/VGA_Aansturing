@@ -1,3 +1,7 @@
+#include "main.h"
+#include "stm32_ub_vga_screen.h"
+#include "stm32f4xx_flash.h" // flash memory
+
 #ifndef SIZE_OF_BUFFER
 #define SIZE_OF_BUFFER 1681
 #endif
