@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=VGA_Core.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\VGA_Core -TC:\CooCox\CoIDE\configuration\ProgramData\VGA_Core/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="VGA_Core.elf" lastModified="15c4073dd9e">
+         <source file="..\obj\delay.o" lastModified="15c3c62ad31"/>
+         <source file="..\obj\os_time.o" lastModified="15c3c62ada9"/>
+         <source file="..\obj\os_cpu_a.o" lastModified="15c3c62adbe"/>
+         <source file="..\obj\keys.o" lastModified="15c3c62ae2c"/>
+         <source file="..\obj\buzzer.o" lastModified="15c3c62aebc"/>
+         <source file="..\obj\os_cpu_c.o" lastModified="15c3c62b024"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15c3c62b0d4"/>
+         <source file="..\obj\os_flag.o" lastModified="15c3c62b174"/>
+         <source file="..\obj\Driehoek.o" lastModified="15c4041af61"/>
+         <source file="..\obj\uart.o" lastModified="15c3c62b26c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c3c62b2bb"/>
+         <source file="..\obj\main.o" lastModified="15c4073db52"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c3c62b42f"/>
+         <source file="..\obj\Lijn.o" lastModified="15c40136527"/>
+         <source file="..\obj\os_sem.o" lastModified="15c3c62b544"/>
+         <source file="..\obj\os_core.o" lastModified="15c3c62b61c"/>
+         <source file="..\obj\leds.o" lastModified="15c3c62b6c0"/>
+         <source file="..\obj\os_mem.o" lastModified="15c3c62b757"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c3c62b7c1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c3c62b815"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="15c3c62b884"/>
+         <source file="..\obj\os_q.o" lastModified="15c3c62b91e"/>
+         <source file="..\obj\os_task.o" lastModified="15c3c62b9f4"/>
+         <source file="..\obj\os_mutex.o" lastModified="15c3c62bb2b"/>
+         <source file="..\obj\lcd.o" lastModified="15c3c62bc91"/>
+         <source file="..\obj\stm32_ub_vga_screen.o" lastModified="15c3c62bd12"/>
+         <source file="..\obj\misc.o" lastModified="15c3c62bd76"/>
+         <source file="..\obj\ucos_ii.o" lastModified="15c3c62bdef"/>
+         <source file="..\obj\Vierkant.o" lastModified="15c3c62be68"/>
+         <source file="..\obj\os_mbox.o" lastModified="15c3c62bf49"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15c3c62c076"/>
+      </target>
+   </processor>
+</history>
